@@ -1,0 +1,332 @@
+/* Empty. Add your own CSS if you like */
+ion-content {
+    background: url(-gallery-2-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Esto es para hacer el blur en la imagen Red - Already Over
+    filter: blur(10px); 
+    -webkit-filter: blur(10px); 
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);*/
+}
+
+/*esta clase es para el icono de regresar*/
+.back{
+    width: 10px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+/*est clase se aplico para el icono de cart para my basket*/
+.cart{
+    width: 25px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+/*Esta clase se aplico para la imagen de coffe-prev*/
+.coffe-prev{
+    width: 90px;
+    height: 90px;
+    margin-left: -30px;
+}
+
+/*esta clase se aplico pa el texto del coffe-prev*/
+.cafe{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/*esta clase se utilizo para marcar las estrellas de coffe-prev*/
+.stars4{
+    width: 155px;
+    margin: 0em 28%;
+}
+
+/*esta clase se aplico al texto de abajo de las estrellas*/
+.startext{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*esto se aplico para las 4 imagenes de abajo*/
+.images{
+    width: 25px;
+    height: 25px;
+}
+
+/*esto es para el texto de la 4 imagenes*/
+p{
+    color: white;
+}
+
+/*esto es para la linea que hace un intervalo*/
+.interval{
+    border-color: #d3d4d5;
+    width: 240px;
+}
+
+/*este es un div donde se coloco el boton de orden*/
+.cuadro-orden{
+    width: 500x;
+    height: 120px;
+    background: #191918;
+    /*margin-top: -6.6px;*/
+}
+
+/*esta hr son las separatorias de algunas textos he imagenes*/
+hr{
+    border-color: #414042;
+    margin-top: -10px;
+    width: 480px;
+}
+
+/*Este es el boton de orden*/
+.button-order{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    text-decoration: none;
+}
+
+/*Este es el texto para el boton orden*/
+.order{
+    text-align: center;
+    margin-top: -45px;
+    text-decoration: none;
+}
+
+/*Este es el div que contiene el open*/
+.cuadro-open{
+    width: 500x;
+    height: 70px;
+    background: #1d1d1d;
+}
+
+/*este div contiene a los amigo que han visitado el coffe*/
+.cuadro-friends{
+    width: 500x;
+    height: 150px;
+    background: #191918;
+}
+
+/*Esta clase se le aplico a el cuadro de los reviews*/
+.cuadro-reviews{
+    width: 500px;
+    height: 250px;
+    background-color: #1d1d1d;
+}
+
+/*Es para el final de todo*/
+.final{
+    background-color: #1d1d1d;
+}
+
+/*Esta clase se aplica para los textos que se utilizan*/
+.hora{
+    display: inline-block;
+    color: darkgray;
+    font-size: 17px;
+}
+
+/*esta clase se aplico para el contedio del boton de my basket*/
+.Mybasket{
+    width: 500x;
+    height: 5900px;
+    background: #1d1d1d;
+}
+
+/*esto es para el icono de my basket*/
+.Basket{
+    width: 33px;
+    height: 25px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+/*para el titulo de my basket*/
+h4{
+    color: white;
+    text-align: center;
+}
+
+/*para alinear el texto de la barra*/
+.bar .bar-dark{
+    text-align: center;
+}
+
+/*esto es para el texto open con su cuadro*/
+.open{
+    display: inline-block;
+    border: 1px solid orangered;
+    border-color: orangered;
+    text-align: center;
+    color: orangered;
+
+}
+
+/*esta clase es para las imagenes de los amigos*/
+.friend1{
+    width: 60px;
+    height: 60px;
+}
+
+/*esto es para la barra*/
+.bar .bar-dark{
+    background-color: #1d1d1d;
+}
+
+/*esto es para el texto que estan a la par de las 4 imagenes*/
+.image-text{
+    font-size: 10px;
+    display: inline-block;
+}
+
+/*esta clase es para el texto de los reviews*/
+.reviews{
+    font-size: 17px;
+}
+
+/*marca el intervalo de el texto con el titulo en my basket*/
+.hr-basket{
+    border-color: #414042;
+    margin-top: 5px;
+    width: 200px; 
+}
+
+/*esto es para el texto de my basket*/
+.text-basket{
+    text-align: center;
+    color: darkgray;
+    margin-bottom: 15px;
+}
+
+/*son para las estrellas del review*/
+.estrellas{
+    height: 20px;
+    width: 110px;
+}
+
+/*es para el texto de jon*/
+.Jon-snow{
+    font-size: 17px;
+}
+
+/*son para las estrellas de jon*/
+.Jon-stars{
+    height: 17px;
+    width: 105px;
+}
+
+/*es para el texto que esta al final*/
+.text{
+    font-size: 10px;
+}
+
+/*es el boton al final de la barra*/
+.boton-menu{
+    width: 50px;
+    height: 35px;
+}
+
+/*se aplico para la imagen de coffe-prev en order*/
+.coffe-order{
+    width: 60px;
+    height: 60px;
+}
+
+/*se aplico para las estrellas de order*/
+.order-stars{
+    height: 17px;
+    width: 105px;
+    margin-left: 35px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+/*es para el texto de order*/
+.order-p{
+    margin-left: 35px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/*
+.div-dark{
+    background-color: black;
+    opacity: 0.5;
+    filter:  alpha(opacity=90);
+    height: 100px;
+}*/
+
+/*Esto es para el div de beverages*/
+.Beverages{
+    height: 55px;
+    background: #191918;
+    margin-top: -50px;
+}
+
+/*esto es para el texto beverages*/
+.Beverages-text{
+    text-align: center;
+    color: orangered;
+    margin-top: 10px;
+}
+
+/*esto es para el cuadro anaranjado que esta debajo del texto beverages*/
+.cuadro-naranja{
+    width: 55px;
+    height: 5px;
+    background: orangered;
+    margin-top: -10px;
+}
+
+/*la clase cappuccino se utiliza para la imagen*/
+.cappuccino{
+    width: 350px;
+    margin-top: -20px;
+}
+
+/**/
+.order-cappuccino{
+    height: 55px;
+    background: #1d1d1d;
+    margin-top: -5px;
+}
+
+.nombres-text{
+    font-size: 17px;
+    color: darkgray;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.dolar-text{
+    text-align: center;
+    color: orangered;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.Lemon-tea{
+    width: 350px;
+}
+
+.order-cafes{
+    height: 55px;
+    background: #1d1d1d;
+    margin-top: -5px;
+}
+
+.order-cafe{
+    height: 55px;
+    background: #1d1d1d;
+    margin-top: -5px;
+}
